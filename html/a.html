@@ -40,5 +40,13 @@
 	<a href="javascript:OnLinkClick();">Exec</a><br />
 	<br />あなたの使用デバイスは
 	<div id="output"></div>
+
+<script type="text/javascript">
+	console.log('読み込まれました3');
+	window.onload = setTimeout(function(){
+		console.log('ページが切り替わります');
+		location.replace('http://gimmicklog.main.jp');
+	}, 5*1000);
+</script>
 </body>
 </html>
